@@ -57,7 +57,7 @@ body {
 	border: 1px solid lightgray;
 }
 
-.group:nth-child(1){
+.group:nth-child(1) {
 	min-height: 19rem;
 }
 
@@ -140,6 +140,7 @@ body {
 	body {
 		background-color: #ffffff;
 	}
+
 	.instagram-wrapper {
 		width: 90%;
 	}
@@ -151,7 +152,12 @@ body {
 	.instagram-continue {
 		width: 100%;
 	}
+
 	.group {
 		border: 1px solid transparent;
+	}
+
+	.download {
+		flex-direction: column;
 	}
 }
